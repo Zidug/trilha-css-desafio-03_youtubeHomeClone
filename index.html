@@ -4,35 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube Home</title>
-    <link rel="stylesheet" href="../trilha-css-desafio-03_youtubeHomeClone/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
-        <div>
+        <div class="left-area">
             <nav>
-                <div class="menu-btn">menu
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+                <img src="./assets/icons/menu-haburger.svg" alt="">
             </nav>
-            <figure>logo</figure>
+            <figure>
+                <img src="./assets/img/youtube-logo-1-3.png" alt=""  width="5%">
+            </figure>
         </div>
-        <div>
+        <div class="center-area">
             <div class="search">
                 <input type="text">
                 <button>lupa</button>
             </div>
                 <button>microfone</button>
         </div>
-        <div>
+        <div class="right-area">
             <button>upload video</button>
             <button>notification</button>
             <figure>perfil</figure>
         </div>
     </header>
     <main>
-        <nav>filter
+        <nav class="filter">filter
             <button class="filter-arrow-btn">seta</button>
             <div class="filter-btn">
                 <button>Tudo</button>
@@ -48,26 +46,35 @@
             </div>
             <button class="filter-arrow-btn">seta</button>
         </nav>
-        <aside>
-            <nav class="aside-menu">
-                <button></button>
-                <button></button>
-                <button></button>
-            </nav>
-            <nav class="aside-menu">
-                <button></button>
-                <button></button>
-                <button></button>
-            </nav>
-            <nav class="aside-menu">
-                <button></button>
-                <button></button>
-                <button></button>
-            </nav>
-        </aside>
         <div>recently</div>
         <div>short</div>
         <div>recomendataion</div>
+        
     </main>
+
+    <aside>
+        <nav class="aside-menu">
+            <button>Inicio</button>
+            <button>Shorts</button>
+            <button>Inscrições</button>
+        </nav>
+        <nav class="aside-menu">
+            <button>Seu Canal</button>
+            <button>Histórico</button>
+            <button>Playlist</button>
+            <button>Seus vídeos</button>
+            <button>Seus podcasts</button>
+            <button>Assistir mais tarde</button>
+            <button>Vídeos com "Gostei"</button>
+            <button>Seus clipes</button>
+        </nav>
+        <nav class="aside-menu">
+            Inscrições
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+        </nav>
+    </aside>
+
 </body>
 </html>
