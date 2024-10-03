@@ -11,10 +11,54 @@ body{
 }
 
 header{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    padding: 24px;
     grid-row: span 1;
     grid-column: 1 / 4;
     justify-self: inherit;
+    background-color: aliceblue;
+}
+.left-area{
+    display: inline-flex;
+    align-items: center;
+    justify-items: initial;
+    grid-column: 1 / span 1;
+    gap: 8px;
+}
+
+.logo{
+    display: inline-flex; 
+}
+
+.logo img{
+    width: 80px;
+}
+
+.center-area{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    grid-column: 2 / span 1;
+    gap: 8px;
+
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;;
+    gap: 8px;
+}
+
+.right-area{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-items: right;
+    grid-column: 3 / span 1;
+    gap: 8px;
 }
 
 main{
@@ -24,12 +68,20 @@ main{
     grid-column: 2 / span 2;
 }
 
+button:hover{
+    color: white;
+    background-color: gray;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 .filter {
     display: flex;
     
 }
 
 aside{
+    padding: 16px;
     display: flex ;
     flex-direction: column;
     grid-row: 2 / 8 ;
