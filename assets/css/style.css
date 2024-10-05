@@ -133,22 +133,6 @@ header button{
     border-radius: 50%;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    grid-row: 2 / span 3;
-    grid-column: 2 / span 2;
-    background-color: aliceblue;
-    overflow: auto;
-    scroll-behavior: smooth; 
-
-}
-
-.filter {
-    display: flex;
-    
-}
-
 aside{
     display: flex ;
     grid-template-rows: 1fr 4fr 2fr;
@@ -221,4 +205,21 @@ aside{
 .aside-copy{
     font: 4px;
     font-family: sans-serif;   
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    grid-row: 2 / span 3;
+    grid-column: 2 / span 2;
+    background-color: aliceblue;
+}
+
+.filter {
+    display: flex;
+}
+
+.videos{
+    overflow: auto;
+    scroll-behavior: smooth;
 }
