@@ -202,7 +202,7 @@ aside{
 .aside-btn-sugestions{
     padding: 16px; 
     font-size: 14px;
-
+    
 }
 .aside-btn-sugestions figure img{
     width: 24px; 
@@ -213,14 +213,12 @@ aside{
 }
 
 .aside-info {
-    padding: 16px;
+    gap: 32px;    
+    padding: 32px;
     font-family: sans-serif;
-    font: 8px;
-    font-weight: 400;
-    gap: 16px;    
 }
 
-.aiside-copy{
+.aside-copy{
     font: 4px;
     font-family: sans-serif;   
 }
